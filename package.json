@@ -1,0 +1,28 @@
+{
+  "name": "rellax-test",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-uglify": "^2.1.0"
+  },
+  "description": "a test project for rellax.js",
+  "main": "rellax.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rellax"
+  ],
+  "author": "Sanjib Adhya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unit99/rellax-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Unit99/rellax-test/issues"
+  },
+  "homepage": "https://github.com/Unit99/rellax-test#readme"
+}
