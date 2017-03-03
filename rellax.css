@@ -1,0 +1,68 @@
+/* rellax demo css */
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-align: left;
+    line-height: normal;
+}
+
+h1{font-size: 5em; font-weight: 900;}
+p{color: rgba(0,0,0,0.5); line-height: 1.7;}
+
+.about{padding: 60px 0;}
+.green{background-color: #5FEA57;}
+.context-img{max-width: 100%; height: auto; position: relative; padding-left: 0;}
+.context-img img{box-shadow: -20px 15px 1px 0 rgba(0,0,0,0.2);}
+.border-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    right: -80px;
+    top: 50px;
+    background-color: transparent;
+    border: 15px solid orange;
+    border-right: none;
+    padding: 80px;
+    
+}
+
+.border-content::before, .border-content::after{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+    content: '';
+    width: 15px;
+    height: 45px;
+}
+
+.border-content::after{
+    top: 0;
+}
+
+.context-txt{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.center{text-align: left;}
+.intro{padding: 20px 150px 100px;}
+
+/* media */
+@media screen and (min-width: 1170px){
+    body{background-color: rgba(0,0,0,0.1);}
+    main{
+        background-color: white;    
+        margin: 30px;
+        margin-bottom: 0;
+    }
+    .border-content{display: block;}
+}
